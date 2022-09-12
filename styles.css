@@ -32,7 +32,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+    padding: 60px;
 
 }
 
@@ -73,12 +73,13 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    padding: 24px;
+    padding: 120px;
 }
 
 .imajyes {
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .image-1,
@@ -92,6 +93,34 @@ img {
     align-items: center;
     gap: 24px;
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+
 
 
 
