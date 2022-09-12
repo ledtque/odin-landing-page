@@ -51,6 +51,9 @@ img {
     color: #F9FAF8;
     font-weight: bold;
     border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #cookie-5 {
     height: auto;
@@ -79,7 +82,7 @@ img {
 .imajyes {
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
+    width: 100%;
 }
 
 .image-1,
@@ -88,10 +91,11 @@ img {
 .image-4 {
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    height: 400px;
+    text-align: center;
 }
 
 .quote-section {
