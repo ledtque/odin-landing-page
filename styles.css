@@ -141,3 +141,36 @@ a:visited {
 .info-content {
     background-color: #1F2937;
 }
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #3882F6;
+    border-radius: 24px;
+    width: 800px;
+    color: #F9FAF8;
+}
+
+.button-2 {
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    border: 3px solid #F9FAF8;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
